@@ -40,13 +40,16 @@
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-const paragraf = document.querySelector('p')
+// const paragraf = document.querySelector('p')
 
 // paragraf.innerText
+// paragraf.innerText = "Ini hanya teks saja"
 // untuk hanya mengambil isi teksnya saja tanpa format code editor dan tag html
 // paragraf.textContent
+// paragraf.textContent = "<b>Ini text bold yang tidak bisa bold</b>"
 // untuk mengambil isi teks dan format code saja tanpa tag html
 // paragraf.innerHTML	
+// paragraf.innerHTML = "<b>ini text bisa bold lohhh</b>"	
 // untuk mengambil seluruh isinya berikut format code editor dan tag htmlnya
 
 
