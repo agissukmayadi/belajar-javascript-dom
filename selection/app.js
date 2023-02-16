@@ -1,17 +1,56 @@
-// const allImages = document.getElementsByTagName('img');
+// const gambar = document.getElementsByTagName("img")
 
-// for (let img of allImages) {
-// 	// console.log(img.src);
-// 	img.src =
-// 		'https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Cat_August_2010-4.jpg/1920px-Cat_August_2010-4.jpg';
+// for (const image of gambar) {
+// 	image.src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Cat_August_2010-4.jpg/1920px-Cat_August_2010-4.jpg'
+	// mengganti source
 // }
 
-// const squareImages = document.getElementsByClassName('square');
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-// for (let img of squareImages) {
-// 	img.src =
-// 		'https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Cat_August_2010-4.jpg/1920px-Cat_August_2010-4.jpg';
+// const gambarSquare = document.getElementsByClassName("square")
+
+// for (const image of gambarSquare) {
+// 	image.src = "https://upload.wikimedia.org/wikipedia/commons/2/25/Siam_lilacpoint.jpg"
+	// mengganti source
+
 // }
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// const firstParagraf = document.querySelector('p')
+
+// const imageBanner = document.querySelector('#banner')
+// const imageSquare = document.querySelector('.square')
+// hanya memilih 1 elemen pertama
+
+// const allParagraf = document.querySelectorAll('p')
+// memilih semua elemen
+
+// const anchorInParagraf = document.querySelector("p a")
+// mengambil "<a>" yang parentnya "<p>"
+
+// for (const link of anchorInParagraf) {
+// 	console.log(link.href);
+// 	// mengambil link
+// }
+
+// const checkbox = document.querySelector('input[type="checkbox"]')
+// const anchorCarnivorus = document.querySelector('a[title="Carnivorous"]')
+// mengambil elemen berdasarkan atribut
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+const paragraf = document.querySelector('p')
+
+// paragraf.innerText
+// untuk hanya mengambil isi teksnya saja tanpa format code editor dan tag html
+// paragraf.textContent
+// untuk mengambil isi teks dan format code saja tanpa tag html
+// paragraf.innerHTML	
+// untuk mengambil seluruh isinya berikut format code editor dan tag htmlnya
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 const links = document.querySelectorAll('a');
 
