@@ -1,4 +1,4 @@
-const generateRandomColor = () => {
+function generateColor() {
 	const r = Math.floor(Math.random() * 255);
 	const g = Math.floor(Math.random() * 255);
 	const b = Math.floor(Math.random() * 255);
@@ -6,19 +6,18 @@ const generateRandomColor = () => {
 	return `rgb(${r}, ${g}, ${b})`;
 };
 
-const buttons = document.querySelectorAll('button');
-
-for (let button of buttons) {
-	button.addEventListener('click', colorize);
+function changeColor() {
+	this.style.backgroundColor = generateColor()
 }
 
-const headings = document.querySelectorAll('h1');
+const AllButton = document.querySelectorAll('button')
 
-for (let heading of headings) {
-	heading.addEventListener('click', colorize);
+for (const button of AllButton) {
+	button.addEventListener('click',changeColor)
 }
 
-function colorize() {
-	this.style.backgroundColor = generateRandomColor();
-	this.style.color = generateRandomColor();
+const AllHeading = document.querySelectorAll('h1')
+for (const heading of AllHeading) {
+	heading.addEventListener('click',changeColor)
 }
+
